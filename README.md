@@ -58,15 +58,18 @@ $ python test_misclassified_gradcam.py
 <p align="center"><img width="80%" src="grad-cam.svg" /></p> 
 
 ## Citation
-If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/2107.02504):
+If this work is useful for your research, please cite our [paper](https://www.sciencedirect.com/science/article/pii/S016926072200699X):
 ```
-@misc{jimenez2021memoryaware,
-      title={Memory-aware curriculum federated learning for breast cancer classification}, 
-      author={Amelia Jiménez-Sánchez and Mickael Tardy and Miguel A. González Ballester and Diana Mateus and Gemma Piella},
-      year={2021},
-      eprint={2107.02504},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{JIMENEZSANCHEZ2022107318,
+title = {Memory-aware curriculum federated learning for breast cancer classification},
+journal = {Computer Methods and Programs in Biomedicine},
+pages = {107318},
+year = {2022},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2022.107318},
+url = {https://www.sciencedirect.com/science/article/pii/S016926072200699X},
+author = {Amelia Jiménez-Sánchez and Mickael Tardy and Miguel A. {González Ballester} and Diana Mateus and Gemma Piella},
+keywords = {Curriculum learning, Data scheduling, Data sharing, Domain adaptation, Federated learning, Malignancy classification, Mammography}
 }
 ```
 
