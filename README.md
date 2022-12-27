@@ -1,7 +1,9 @@
 ## Memory-aware curriculum federated learning for breast cancer classification
 #### by Amelia Jiménez-Sánchez, Mickael Tardy, Miguel A. González Ballester, Diana Mateus, Gemma Piella
 
-This repository provides a PyTorch implementation of our work -> [[**arXiv**]](https://arxiv.org/abs/2107.02504)
+#### in Computer Methods and Programs in Biomedicine
+
+This repository provides a PyTorch implementation of our work -> [[**PDF**]](https://www.sciencedirect.com/science/article/pii/S016926072200699X) [[**arXiv**]](https://arxiv.org/abs/2107.02504)
 
 ## Overview 
 In this work, we integrate for the first time curriculum learning to improve breast cancer classification in a federated setting. We deploy a collaborative global model trained on three clinical datasets from different vendors (two private and one publicly available). In this federated setting, no imaging data is shared across institutions. For a precise diagnosis, we train our collaborative model on high-resolution mammograms. We focus on scheduling the training samples paying special attention to those that are forgotten during the intermediate updates of the global model. Our approach is combined with unsupervised domain adaptation to deal with domain shift while preserving data privacy. Our results verify the effectiveness of federated adversarial learning for the multi-site breast cancer classification. Moreover, we show that our proposed memory-aware curriculum method is beneficial to further improve classification performance. 
